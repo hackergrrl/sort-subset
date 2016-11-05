@@ -19,7 +19,7 @@ var data = [
 ]
 
 var filter = function (elm) { return elm.type === 'apple' }
-var sort = function (id1, id2) { return id1 - id2 }
+var sort = function (a, b) { return a.id - b.id }
 subsort(data, filter, sort)
 
 console.log(data)
