@@ -14,7 +14,7 @@
     "lint": "standard"
   },
   "keywords": [],
-  "precommit": "npm run lint && npm test",
+  "precommit": ["npm run lint && npm test"],
   "dependencies": {},
   "devDependencies": {
     "tape": "~4.6.2",
