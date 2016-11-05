@@ -14,12 +14,15 @@
     "lint": "standard"
   },
   "keywords": [],
-  "precommit": ["npm run lint && npm test"],
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
   "dependencies": {},
   "devDependencies": {
-    "tape": "~4.6.2",
+    "pre-commit": "^1.1.3",
     "standard": "~8.3.0",
-    "precommit": "~1.2.2"
+    "tape": "~4.6.2"
   },
   "license": "ISC"
 }
