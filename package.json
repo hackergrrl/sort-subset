@@ -2,7 +2,7 @@
   "name": "sort-subset",
   "description": "sort a subset of an array in-place",
   "author": "Stephen Whitmore <stephen.whitmore@gmail.com>",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "url": "git://github.com/noffle/sort-subset.git"
   },
@@ -13,8 +13,7 @@
     "test": "tape test/*.js",
     "lint": "standard"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "precommit": "npm run lint && npm test",
   "dependencies": {},
   "devDependencies": {
