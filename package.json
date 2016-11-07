@@ -13,7 +13,12 @@
     "test": "tape test/*.js",
     "lint": "standard"
   },
-  "keywords": [],
+  "keywords": [
+    "sort",
+    "subset",
+    "virtual",
+    "slice"
+  ],
   "pre-commit": [
     "lint",
     "test"
